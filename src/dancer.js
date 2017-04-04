@@ -6,6 +6,9 @@ var makeDancer = function(top, left, timeBetweenSteps) {
   this.top = top; 
   this.left = left;
 
+  debugger;
+  console.log('this',this);
+  console.log('this.step SHOULD BE setTIMEOUT',this.oldStep);
   // it just schedules the next step
   this.step();
 
