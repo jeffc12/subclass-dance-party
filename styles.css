@@ -7,7 +7,8 @@ body{
   margin: 0px;
   background-color:#444;
   position: static;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: futura; 
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -16,7 +17,9 @@ a{
   font-size: 15px;
   display: inline-block;
   text-align: middle;
+  font-family: futura; 
 }
+
 .title, .addDancerButton, .LineUpDancers, .goBack {
   padding:5px 12px;
   float:left;
@@ -24,17 +27,27 @@ a{
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #292E37;
 }
 .title{
-  background-color: #777;
+  background-color: #292E37;
 }
 
-.makeFadingDancer{
-  border:10px solid yellow;
+.makeMinon {
+  background-image: url('https://media.giphy.com/media/1WxUz9Tb6WYvu/giphy.gif');
+  width: 300px;
+  height: 300px;
   position:absolute;
+  background-position: center;  
 }
-.makeSpinDancer{
+.makeCartman{
+  background: url('https://media.giphy.com/media/3og0IQUSewUTqTQ9zi/giphy.gif');
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  background-position: center;  
+}
+.makeShark{
   background-image: url('https://funsubstance.com/uploads/gif/215/215926.gif');
   width: 300px;
   height: 300px;
